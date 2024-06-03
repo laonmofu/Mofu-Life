@@ -1,0 +1,201 @@
+{
+  "name": "환경설정 백업",
+  "createdAt": "2023-10-30T09:22:52.499Z",
+  "updatedAt": "2024-06-03T13:18:01.371Z",
+  "misskeyVersion": "2024.3.1+neko-b.2",
+  "host": "satellite.nekoplanet.xyz",
+  "settings": {
+    "hot": {
+      "collapseRenotes": true,
+      "menu": [
+        "notifications",
+        "drive",
+        "-",
+        "search",
+        "lookup",
+        "-",
+        "favorites",
+        "clips",
+        "lists",
+        "antennas"
+      ],
+      "visibility": "public",
+      "localOnly": false,
+      "statusbars": [],
+      "widgets": [
+        {
+          "id": "c5074d12-b7ac-4151-a391-214c586c797f",
+          "data": {},
+          "name": "instanceInfo",
+          "place": null
+        },
+        {
+          "id": "f2f9957d-ea03-426a-8529-72a6bf01fc67",
+          "data": {},
+          "name": "postForm",
+          "place": null
+        },
+        {
+          "id": "55717ead-b30c-47f2-8e93-6803dba6d612",
+          "data": {},
+          "name": "onlineUsers",
+          "place": null
+        },
+        {
+          "id": "f042c129-8a52-4e58-ac09-e924173c48bc",
+          "data": {
+            "height": 700,
+            "showHeader": true,
+            "excludeTypes": []
+          },
+          "name": "notifications",
+          "place": null
+        }
+      ],
+      "tl": {
+        "filter": {
+          "withRenotes": true,
+          "onlyFiles": false,
+          "withReplies": true,
+          "withSensitive": true
+        },
+        "src": "home",
+        "userList": null
+      },
+      "pinnedUserLists": [],
+      "overridedDeviceKind": null,
+      "serverDisconnectedBehavior": "quiet",
+      "nsfw": "ignore",
+      "highlightSensitiveMedia": true,
+      "animation": true,
+      "animatedMfm": true,
+      "advancedMfm": true,
+      "showRepliesCount": true,
+      "showRenotesCount": true,
+      "showReactionsCount": true,
+      "loadRawImages": false,
+      "imageNewTab": false,
+      "dataSaver": {
+        "code": false,
+        "media": false,
+        "avatar": false,
+        "urlPreview": false
+      },
+      "disableShowingAnimatedImages": false,
+      "emojiStyle": "twemoji",
+      "disableDrawer": false,
+      "useBlurEffectForModal": true,
+      "useBlurEffect": false,
+      "showFixedPostForm": false,
+      "showFixedPostFormInChannel": true,
+      "enableInfiniteScroll": true,
+      "useReactionPickerForContextMenu": false,
+      "showGapBetweenNotesInTimeline": true,
+      "instanceTicker": "none",
+      "emojiPickerScale": 1,
+      "emojiPickerWidth": 3,
+      "emojiPickerHeight": 2,
+      "emojiPickerUseDrawerForMobile": true,
+      "defaultSideView": false,
+      "menuDisplay": "sideFull",
+      "reportError": false,
+      "squareAvatars": true,
+      "showAvatarDecorations": true,
+      "numberOfPageCache": 4,
+      "showNoteActionsOnlyHover": false,
+      "showClipButtonInNoteFooter": false,
+      "reactionsDisplaySize": "small",
+      "forceShowAds": false,
+      "aiChanMode": false,
+      "devMode": false,
+      "mediaListWithOneImageAppearance": "expand",
+      "notificationPosition": "rightBottom",
+      "notificationStackAxis": "vertical",
+      "enableCondensedLineForAcct": false,
+      "keepScreenOn": false,
+      "hideMutedNotes": true,
+      "defaultWithReplies": true,
+      "disableStreamingTimeline": false,
+      "useGroupedNotifications": true,
+      "trustedExternalWebsites": [],
+      "sound_masterVolume": 0.3,
+      "sound_note": {
+        "type": null,
+        "volume": 1
+      },
+      "sound_noteMy": {
+        "type": "syuilo/n-cea-4va",
+        "volume": 1
+      },
+      "sound_notification": {
+        "type": "syuilo/n-ea",
+        "volume": 1
+      },
+      "sound_antenna": {
+        "type": "syuilo/triple",
+        "volume": 1
+      },
+      "sound_channel": {
+        "type": "syuilo/square-pico",
+        "volume": 1
+      }
+    },
+    "cold": {
+      "lightTheme": {
+        "id": "1100673c-f902-4ccd-93aa-7cb88be56178",
+        "base": "light",
+        "name": "Mi Botanical Light",
+        "props": {
+          "bg": "e2deda",
+          "fg": "#3d3d3d",
+          "X14": "#ebe7e5",
+          "link": "@accent",
+          "navBg": "@X14",
+          "panel": "@X14",
+          "accent": "#77b58c",
+          "header": ":alpha<0.7<@panel",
+          "renote": "#229e92",
+          "divider": "#cfcfcf",
+          "hashtag": "#4cb8d4",
+          "mention": "#da6d35",
+          "success": "#86b300",
+          "fgOnWhite": "@accent",
+          "mentionMe": "#d44c4c",
+          "fgHighlighted": "#6bc9a0",
+          "panelHeaderBg": "@panel",
+          "buttonGradateB": ":hue<-70<@accent",
+          "panelHeaderDivider": "@divider"
+        },
+        "author": "ThinaticSystem"
+      },
+      "darkTheme": {
+        "id": "504debaf-4912-6a4c-5059-1db08a76b737",
+        "base": "dark",
+        "name": "Mi Botanical Dark",
+        "props": {
+          "bg": "rgb(37, 38, 36)",
+          "fg": "rgb(216, 212, 199)",
+          "link": "@accent",
+          "navBg": "#363636",
+          "panel": "rgb(47, 47, 44)",
+          "accent": "rgb(148, 179, 0)",
+          "header": ":alpha<0.7<@panel",
+          "renote": "@accent",
+          "divider": "rgba(255, 255, 255, 0.14)",
+          "hashtag": "#5bcbb0",
+          "mention": "rgb(212, 153, 76)",
+          "fgOnWhite": "@accent",
+          "mentionMe": "rgb(212, 210, 76)",
+          "fgHighlighted": "#fff",
+          "panelHeaderDivider": "rgba(0, 0, 0, 0)"
+        },
+        "author": "syuilo"
+      },
+      "syncDeviceDarkMode": true,
+      "plugins": []
+    },
+    "fontSize": "1",
+    "useSystemFont": "t",
+    "wallpaper": null
+  }
+}
