@@ -18,7 +18,7 @@
 `@staff@nekoplanet.xyz` (공지용 계정)  
 `@MeowBot@nekoplanet.xyz` (프록시)  
 
-`@root@satellite.nekoplanet` (관리용 계정)  
+`@root@satellite.nekoplanet.xyz` (관리용 계정)  
 `@MeowBot@satellite.nekoplanet.xyz` (프록시)  
 `@ai@satellite.nekoplanet.xyz` (봇)  
   
