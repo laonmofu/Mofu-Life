@@ -1,4 +1,29 @@
-.xn5WL {display:none}
+/*しゅいろママエラー画面*/
+.xn5WL._panel{padding-top: 8px;}
+.xn5WL._panel .ti-alert-triangle{
+  display: inline-block
+}
+.xn5WL._panel .ti-alert-triangle::before{
+  content: "";
+  display: inline-block;
+  background-image: url('https://data.nekoplanet.xyz/nekoplanet-storage/misskey/9ef374e9-8e6c-40f3-8aec-67e2944f10d9.webp');
+  background-size: 42px 37px;
+  width:42px;
+  height:37px;
+  vertical-align: middle;
+  transform:scale(1.4);
+}
+.xn5WL._panel >div:nth-child(1){
+  font-size:0;
+  text-align: center;
+}
+.xn5WL._panel >div:nth-child(1):after{
+  display: inline-block;
+  content: "너무 졸려요...";
+  margin-left: 50px;
+  vertical-align: middle;
+  font-size:14px;
+}
 
 @font-face {
     font-family: 'omyu_pretty';
